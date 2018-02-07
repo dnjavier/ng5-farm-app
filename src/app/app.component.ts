@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
+import { AnimalService } from './farmer/animals/animal.service';
 
 @Component({
-  selector: 'app-root',
+  selector: 'fa-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'app';
+  pageTitle: string = 'Farm App';
 }
