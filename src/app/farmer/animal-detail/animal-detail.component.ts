@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
-import { IAnimal } from '../animal';
+import { IAnimal } from '../animals/animal';
 
 @Component({
   templateUrl: './animal-detail.component.html',
